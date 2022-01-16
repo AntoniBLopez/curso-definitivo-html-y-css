@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video src="./montañaTe.mp4#t=10" controls preload="auto"></video> <!-- src="URL"
+            controls es el atributo para añadir y poder ver los controles de play, pausa y
+            duración del vídeo, es un atributo sin valor, va solo. el atributo preload nos
+            ayuda a que el vídeo pueda empezarse a renderizar cuando la página se empieza a
+            cargar en el navegador cuando la abrimos, esto es para que no exista mucho
+            tiempo de espera.
+            Se descarga desde que ya empieza a cargar el navegador y no cuando el usuario se
+            lo encuentra. preload no hace que el vídeo se reproduzca solo, simplemente hace
+            que se pueda cargar rápido, por eso se llama preload  -->
+
+            <!-- en el atributo src="./montañaTe.mp4", si le añado un: #t=20,60 -->
+
+            <!-- Hashtag, t de tiempo y añadimos 2 tiempos: 1. El segundo/minuto en el que
+            empieza a reproduzirse el vídeo. 2. Y el segundo/minuto en el que me gustaría
+            que dejara de reproducirse. -->
+
+            <!-- al elemento <video src="./montañaTe.mp4#t=10" controls preload="auto"></video>
+            Si le añado entre la etiqueta de entrada y la de cierre de <video>, la estiqueta:
+                <source />
+            de esta manera añadiendo el src="" dentro de ella puedo crear diferentes formatos sin
+            que el navegador los reproduza todos. Solo va a reproducir el que el navegador decida.
+            Si entiende más de un formato, va a utilizar el primero que se encuentre.
+
+            Se codifica así:
+
+            <video controls preload="auto">
+                <source src="./montañaTe.mp4#t=10"/>   // Formato 1
+                <source src="./montañaTe.m4v#t=10"/>   // Formato 2
+            </video>
+
+            Le estoy añadiendo el src="URL+#t=s,s" dentro del source -->
+        </section>
+    </main>
+</body>
+</html>
