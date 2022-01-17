@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <main>
+        <!-- Como añadir una lista desplegable para seleccionar opciones: ( mala práctica ) -->
+        <!-- <select name="cursos" id="">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Java">Java</option>
+            <option value="HTML5">HTML5</option>
+            <option value="CSS3">CSS3</option>
+            <option value="Python">Python</option>
+        </select> -->
+
+        
+        <!-- Como añadir una lista desplegable para seleccionar opciones: ( Buena Práctica ) -->
+        <input list="cursos">
+        <datalist id="cursos">
+            <option value="JavaScript"></option>
+            <option value="Java"></option>
+            <option value="Python"></option>
+            <option value="CSS3"></option>
+            <option value="HTML5"></option>
+        </datalist>
+    </main>
+</body>
+</html>
