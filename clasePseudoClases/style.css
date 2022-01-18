@@ -1,0 +1,43 @@
+.main-nav {
+    margin-top: 16px;    /* Añadir margin arriba de un alto de ... */
+    list-style: none;    /* Quitar los estilos de la lista, como por ejemplo el punto de <ul> */
+    padding-left: 0px;   /* Ubicar desde la izquierda a la derecha ... */
+    background-color: #13a4a4;
+}
+
+
+/* Ordenar los elementos en Horizontal con el estilo display: */
+.main-nav__item {
+    display: inline-block;
+}
+
+
+
+/* Modificar la etiqueta ancla ( es la etiqueta para añadir link a un texto <a> )
+de todas las clases que tengan el valor de class: main-nav__item */
+
+/* Código para usar links en texto como si fueran botones que te llevan al link: */
+.main-nav__item a{
+    color: white;
+    padding: 10px;           /* Añadir distancia por ambos lados */
+    border-radius: 2px;      /* Añadir grados al borde */
+    text-decoration: none;   /* Eliminar Underline */
+}
+
+
+/* Pseudo Clase hover: ( cuando el mouse pase por encima ... ) */
+.main-nav__item a:hover {
+    color: blue;
+}
+
+
+/* Pseudo Clase active: ( Cuando le das click ... ) */
+.main-nav__item a:active {
+    color: red;
+}
+
+
+/* Pseudo Elemento after: ( Después de ... ) */
+.main-nav__item a::after {
+    content: " | ";
+}
