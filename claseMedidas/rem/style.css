@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+html {
+    font-size: 62.5%;
+}
+
+main:first-child{
+    font-size: 3.0rem;
+}
+
+div {
+    font-size: 1.0rem;
+}
