@@ -1,0 +1,10 @@
+
+/* Adjacent Sibling: ( Hermano adyacente o Hermano cercano ) */
+
+h2 + p { /* Añade el color rojo a las etiquetas p que sean cercanas a las etiquetas h2 */
+    color: red;
+}
+
+/* Añade el contenido de dentro de las llaves a 
+    las segunda etiqueta que sean cercanas a las primera etiqueta */
+
