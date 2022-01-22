@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: static;
+    background-image: url(./sky.jpg);
+    font-size: 62.5%;
+    position: sticky;
+    top: 10rem;
+}
+main {
+    text-align: center;
+}
+.main__div1 {
+    border: 0.2rem black solid;
+    background-color: aqua;
+    position: relative;
+    top: 1.6rem;
+    border-radius: 2rem;
+    max-width: 20rem;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+.main__div2 {
+    border: 0.2rem black solid;
+    background-color: blueviolet;
+    border-radius: 7rem;
+    font-size: 2rem;
+    height: 40rem;
+    max-width: 80rem;
+    max-height: 40rem;
+    margin: 0 auto;
+}
+.main__div2 p {
+    margin: 10rem 6rem;
+}
