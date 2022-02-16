@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    border: 0.3rem solid black;
+    align-items: stretch;
+}
+p {
+    /* width: 10rem; */
+    height: 10rem;
+    text-align: center;
+}
+p:nth-child(1) {
+    background-color: aqua;
+}
+p:nth-child(2) {
+    background-color: rgb(0, 255, 170);
+}
+p:nth-child(3) {
+    background-color: rgb(255, 81, 0);
+}
+p:nth-child(4) {
+    background-color: rgb(219, 106, 210);
+}
+p:nth-child(5) {
+    background-color: rgb(209, 219, 64);
+}
+p:nth-child(4) {
+    background-color: rgb(200, 111, 241);
+}
