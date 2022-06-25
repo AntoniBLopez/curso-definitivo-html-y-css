@@ -1,2 +1,3 @@
-# curso-definitivo-html-y-css
-## Curso definitivo de HHTML y CSS de Platzi
+# 🖼 Curso Avanzado de HTML y CSS
+
+Curso finalizado, grcias por visitar mis repositorios! 😄
